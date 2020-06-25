@@ -1,0 +1,8 @@
+campus(xid,xname) #校区号,校区地点
+student(sid,sname,schoolid,spassword)
+teacher(tid,tname,schoolid,tpassword)
+term(termid,termname)
+course(cid,cname,score)
+choose_course(sid,ocid,pscore,kscore,zscore)
+offer_course(tid,cid,termid,maxnum,xid,time,place,status)
+school(schoolid,schoolname)
